@@ -1,0 +1,25 @@
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("3")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = Some("-I/home0/b/b34533/Application/fastStructure-master/gsl-2.4/bin/include/gsl")
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("false")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "cc" "-O3" "-ffunction-sections" "-fdata-sections" "-fPIC" "-m64" "-I/home0/b/b34533/Application/fastStructure-master/gsl-2.4/bin/include/gsl" "-fvisibility=hidden" "-DMINIZ_NO_STDIO" "-DMINIZ_NO_ARCHIVE_APIS" "-DMINIZ_NO_ARCHIVE_WRITING_APIS" "-DMINIZ_NO_TIME" "-DMINIZ_NO_ZLIB_COMPATIBLE_NAMES" "-o" "/LARGE0/gr10405/lhome/y.sugihara/yam/v2/population_genetics/unique_allele/vcf2gt/target/release/build/miniz-sys-831355d842b70292/out/miniz.o" "-c" "miniz.c"
+exit code: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "crs" "/LARGE0/gr10405/lhome/y.sugihara/yam/v2/population_genetics/unique_allele/vcf2gt/target/release/build/miniz-sys-831355d842b70292/out/libminiz.a" "/LARGE0/gr10405/lhome/y.sugihara/yam/v2/population_genetics/unique_allele/vcf2gt/target/release/build/miniz-sys-831355d842b70292/out/miniz.o"
+exit code: 0
+cargo:rustc-link-lib=static=miniz
+cargo:rustc-link-search=native=/LARGE0/gr10405/lhome/y.sugihara/yam/v2/population_genetics/unique_allele/vcf2gt/target/release/build/miniz-sys-831355d842b70292/out
+cargo:root=/LARGE0/gr10405/lhome/y.sugihara/yam/v2/population_genetics/unique_allele/vcf2gt/target/release/build/miniz-sys-831355d842b70292/out
