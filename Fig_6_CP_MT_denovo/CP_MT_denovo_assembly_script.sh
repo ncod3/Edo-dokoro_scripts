@@ -294,7 +294,7 @@ hypo -d hypo_1.fasta -r @names.txt -s ${genome_size} -c ${COV2} -b hypo1.bam -p 
 
 
 #### Reference ####
-#### Niato K. Nanopore sequencing for plant genome (in Japanese).
+#### Naito K. Nanopore sequencing for plant genome (in Japanese).
 #### in Arakawa K. and Miyamoto M. (eds.),
 #### Guide for the long-read WET & DRY analysis (published in Japanese).
 #### YODOSYA Co., LTD. Tokyo, Japan. pp.177-199. (2021) ISBN978-4-7581-2253-5
